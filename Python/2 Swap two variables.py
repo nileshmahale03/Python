@@ -1,3 +1,4 @@
+
 #Swap two variables
 #I/P: x = 100, y = 20
 #O/P: x = 20, y = 100
@@ -17,16 +18,13 @@ print(x, y)
 """
 
 #using extra variable
-z = x
-
+temp = x
 x = y
-
-y = z
+y = temp
 
 print(x, y)
 
 #using comma assignment
-
 x, y = y, x
 
 print(x, y)
