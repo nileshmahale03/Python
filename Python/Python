@@ -1,0 +1,18 @@
+#1. Python Foundation
+#2. Data Structures With Python
+#3. Machine Learning Foundation With Python
+#4. Python Certification Training for Data Science
+
+1. Download and Install Python from https://www.python.org/downloads/ 
+2. While installing, add Python PATH to windows Path variable
+3. Create a.py file at some location (hide extensions for known files)
+3. open cmd prompt and run 
+4. >>python a.py
+5. >>python -m py_compile a.py for .pyc file 
+6. Download Visual Studio Code 
+7. Install the extension from the VS Code Marketplace.
+
+1. Create a new repository 
+2. Repository name, Description (optional), Public, Add a README file, Add .gitignore, Choose a license
+3. Click on Code -> Open with GitHub Desktop
+4. Clone to One Drive
