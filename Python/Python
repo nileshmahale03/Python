@@ -12,6 +12,15 @@
 6. Download Visual Studio Code 
 7. Install the extension from the VS Code Marketplace.
 
+How to install Python on Mac? 
+1. Go to the Terminal and type: python --version
+   Python 2.7.16
+2. Go to site: https://www.python.org/downloads/ and install Python 3.9.3
+3. Go to the Terminal and type: python3 --version
+   Python 3.9.3
+4. Download PyCharm for Apple Silicon
+5. Install - command line developer tools
+
 1. Create a new repository 
 2. Repository name, Description (optional), Public, Add a README file, Add .gitignore, Choose a license
 3. Click on Code -> Open with GitHub Desktop
