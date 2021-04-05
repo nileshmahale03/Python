@@ -1,20 +1,22 @@
 
 #Types
-age = 34            #int
+age = 35            #int
 name = "Nilesh"     #str
 weight = 140.7      #float
 is_holiday = False  #bool
 is_valid = True     #bool
+z = None            #None
 
 print(age)
 print(name)
 print(weight)
 print(is_holiday)
 print(is_valid)
+print(z)
 
-print(age, name, weight, is_holiday, is_valid)
+print(age, name, weight, is_holiday, is_valid, z)
 
-print(type(age), type(name), type(weight), type(is_holiday), type(is_valid))
+print(type(age), type(name), type(weight), type(is_holiday), type(is_valid), type(z))
 
 
 #1. Example 1
