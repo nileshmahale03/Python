@@ -1,5 +1,6 @@
 
 #List
+#ordered
 #Normal variable holds 1 value, lists holds collection of values
 #Square Brackets
 #Mutable
