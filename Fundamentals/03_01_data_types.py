@@ -9,3 +9,6 @@ print(age, type(age))
 print(PI, type(PI))
 print(isPrime, type(isPrime))
 print(unknown, type(unknown))
+
+negative_infinity = float('-inf')
+positive_infinity = float('inf')

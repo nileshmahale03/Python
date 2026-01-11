@@ -1,7 +1,3 @@
-
-negative_infinity = float('-inf')
-positive_infinity = float('inf')
-
 #A number N is a power of 2 if and only if N & (N - 1) == 0 and N > 0
 N = int(input())
 
