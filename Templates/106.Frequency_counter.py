@@ -4,17 +4,23 @@ A = [1, 2, 3, 4, 5, 3, 2, 1, 5, 3]
 
 freq = Counter(A)
 
-for key in sorted(freq):
-    print(key, freq[key])
+# usage
+print(dict(freq))
 
-#frequency dict
+def build_frequency_dict(s):
+    """
+    Returns a dictionary with character frequencies of the string.
+    """
+    freq = {}
+
+    for ch in s:
+        if ch in freq:
+            freq[ch] += 1
+        else:
+            freq[ch] = 1
+
+    return freq
+
+# usage
 word = "hello"
-
-my_dict = {}
-for w in word:
-    if w in my_dict:
-        my_dict[w] += 1
-    else:
-        my_dict[w] = 1
-
-print(my_dict)
+print(build_frequency_dict(word))

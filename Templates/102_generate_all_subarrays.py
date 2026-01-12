@@ -1,9 +1,21 @@
-#generate all subarrays 
-#formula -> (N * (N+1))/2
-#Continuous -> Yes
-N = 4
-A = [1, 6, 3, 7]
 
-for i in range(N):
-    for j in range(i, N):
-        print(A[i:j+1])
+def generate_all_subarrays(arr):
+    """
+    Generates and returns all contiguous subarrays of the given array.
+    """
+    n = len(arr)
+    subarrays = []
+
+    for i in range(n):
+        for j in range(i, n):
+            subarrays.append(arr[i:j + 1])
+
+    return subarrays
+
+
+# usage
+A = [1, 6, 3, 7]
+all_subarrays = generate_all_subarrays(A)
+
+for sub in all_subarrays:
+    print(sub)
